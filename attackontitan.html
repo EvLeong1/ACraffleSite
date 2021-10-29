@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lard's Website</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/188/188918.png"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Lard's Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+             
+                <li><a href="acraffle.html">ACraffle</a></li>
+            
+        
+                <div class="dropdown">
+                    <button class="dropbtn">Favorite Anime</button>
+                    <div class="dropdown-content">
+                        <a href="attackontitan.html">Attack on Titan</a>
+                        <a href="fmab.html">Fullmetal Alchemist Brotherhood</a>
+                        <a href="mp100.html">Mob Psycho 100</a>
+                        <a href="haikyuu.html">Haikyuu!!</a>
+                        <a href="blackclover.html">Black Clover</a>
+                    </div>
+                </div>
+            </ul>
+
+        </nav>
+
+        <script src = "script.js">
+        </script>
+    </header>
+
+    <div id="attackontitan">
+
+    
+        <div class="aotHead" id="mainHead">
+            <h2 style="color:rgb(0, 0, 0); text-align: center;" >Attack On Titan</h2>
+            <img src="https://i.pinimg.com/originals/ca/2d/9a/ca2d9a862d2948dc7815f68529d84d12.png" 
+                 alt="aot banner" height="400" class= "center" >
+        </div>
+    
+       <!-- Tab links -->
+       <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'aotHome')" id="defaultOpen">Home</button>
+        <button class="tablinks" onclick="openCity(event, 'aotChars')">Characters</button>
+        <button class="tablinks" onclick="openCity(event, 'aotMusic')">Music</button>
+        <button class="tablinks" onclick="openCity(event, 'aotClips')">Clips</button>
+        </div>
+    
+        <!-- Tab content -->
+        <div id="aotHome" class="tabcontent">
+            <h3>Why I like it</h3>
+            <p>Good</p>
+        </div>
+        
+        <div id="aotChars" class="tabcontent">
+            <h3>Favorite Characters</h3>
+
+            <div id = "char" class="inline-block">
+                <img src="https://pbs.twimg.com/profile_images/378800000048620046/d3376798c343f3fe582c8649f9cc7773.png" alt="eren" height="100px">
+                <p>Eren Yaeger</p>
+            </div>
+
+            <div id = "char" class="inline-block">
+                <img src="https://i.pinimg.com/474x/90/ac/a3/90aca314ac006dd43c73476d6535ee95.jpg" alt="levi" height="100px">
+                <p>Levi Ackerman</p>
+            </div>
+
+            <div id = "char" class="inline-block">
+                <img src="https://pbs.twimg.com/profile_images/378800000074274157/a81dce229a38998645517dec44f9fae0.jpeg" alt="armin" height="100px">
+                <p>Armin Arlet</p>
+            </div>
+
+            <div id = "char" class="inline-block">
+                <img src="https://pbs.twimg.com/profile_images/1357764678378782725/4i7ZXH-__400x400.jpg" alt="historia" height="100px">
+                <p>Historia Reiss</p>
+            </div>
+
+            <div id = "char" class="inline-block">
+                <img src="https://styles.redditmedia.com/t5_scn1c/styles/communityIcon_zcg22df6le961.jpg?width=256&s=6c807a20dee10c81ae7a3f608680e56ed34f9e55
+                " alt="reiner" height="100px">
+                <p>Reiner Braun</p>
+            </div>
+
+        
+
+        </div>
+
+        <div id="aotMusic" class="tabcontent">
+            <h3>Favorite Music</h3>
+            <div class="inline-block opening">
+                <p>Guren no Yumiya (OP 1)</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8OkpRK2_gVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="inline-block opening">
+                <p>Shock (ED 6)</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5Per60XwWoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="inline-block opening">
+                <p>YouSeeBIGGIRL/T:T (OST)</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vy63u2hKoPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="inline-block opening">
+                <p>Attack (OST)</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/c7NMfDeIMHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+           
+
+        </div>
+
+
+
+
+        <div id="aotClips" class="tabcontent">
+            <h3>Favorite Clips (Spoiler Warning)</h3>
+
+            <div class="inline-block opening">
+                <p>Season 1 - Episode 18</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O6gSyFM54Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <script>document.getElementById("defaultOpen").click();</script>
+
+    </div>
+
+    
+
+
+
+</body>

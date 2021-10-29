@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lard's Website</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/188/188918.png"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Lard's Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+             
+                <li><a href="acraffle.html">ACraffle</a></li>
+            
+        
+                <div class="dropdown">
+                    <button class="dropbtn">Favorite Anime</button>
+                    <div class="dropdown-content">
+                        <a href="attackontitan.html">Attack on Titan</a>
+                        <a href="fmab.html">Fullmetal Alchemist Brotherhood</a>
+                        <a href="mp100.html">Mob Psycho 100</a>
+                        <a href="haikyuu.html">Haikyuu!!</a>
+                        <a href="blackclover.html">Black Clover</a>
+                    </div>
+                </div>
+            </ul>
+
+        </nav>
+
+        <script src = "script.js">
+        </script>
+    </header>
+
+    <div id="fullmetal">
+
+    
+        <div class="fmHead" id="mainHead">
+            <h2 style="color:rgba(151, 0, 0); text-align: center;" >Fullmetal Alchemist Brotherhood</h2>
+            <img src="https://pbs.twimg.com/media/DYwKzkDVwAAbPCO.jpg" 
+                 alt="fmab banner" height="400" class= "center" >
+        </div>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'fmabHome')" id="defaultOpen">Home</button>
+            <button class="tablinks" onclick="openCity(event, 'fmabChars')">Characters</button>
+            <button class="tablinks" onclick="openCity(event, 'fmabMusic')">Music</button>
+            <button class="tablinks" onclick="openCity(event, 'fmabClips')">Clips</button>
+            </div>
+        
+            <!-- Tab content -->
+            <div id="fmabHome" class="tabcontent">
+                <h3>Why I like it</h3>
+                <p>Good</p>
+            </div>
+            
+            <div id="fmabChars" class="tabcontent">
+                <h3>Favorite Characters</h3>
+    
+                <div id = "char" class="inline-block">
+                    <img src="https://avatarfiles.alphacoders.com/141/thumb-1920-141865.jpg" alt="edward" >
+                    <p>Edward Elric</p>
+                </div>
+    
+                <div id = "char" class="inline-block">
+                    <img src="https://pbs.twimg.com/profile_images/719527682283872257/GUza2oOd.jpg" alt="mustang" ">
+                    <p>Roy Mustang</p>
+                </div>
+    
+                <div id = "char" class="inline-block">
+                    <img src="https://cdn.discordapp.com/attachments/841766193056317470/903451715133653013/ling_1.jpg" alt="ling" >
+                    <p>Ling Yao</p>
+                </div>
+    
+                <div id = "char" class="inline-block">
+                    <img src="https://i.pinimg.com/originals/cd/53/9d/cd539d8071ea44fa9b6b0aa5c93cd384.jpg" alt="hawkeye" >
+                    <p>Riza Hawkeye</p>
+                </div>
+    
+                
+    
+            
+    
+            </div>
+    
+            <div id="fmabMusic" class="tabcontent">
+                <h3>Favorite Music</h3>
+                <div class="inline-block opening">
+                    <p>Guren no Yumiya (OP 1)</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8OkpRK2_gVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+    
+                <div class="inline-block opening">
+                    <p>Shock (ED 6)</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5Per60XwWoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+    
+                <div class="inline-block opening">
+                    <p>YouSeeBIGGIRL/T:T (OST)</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vy63u2hKoPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div class="inline-block opening">
+                    <p>Attack (OST)</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/c7NMfDeIMHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+    
+               
+    
+            </div>
+    
+    
+    
+    
+            <div id="fmabClips" class="tabcontent">
+                <h3>Favorite Clips (Spoiler Warning)</h3>
+    
+                <div class="inline-block opening">
+                    <p>Season 1 - Episode 18</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/O6gSyFM54Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+            <script>document.getElementById("defaultOpen").click();</script>
+    
+       
+
+    </div>
+    
+    
+
+
+
+</body>
