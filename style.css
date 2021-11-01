@@ -98,6 +98,9 @@ header h1{
   -webkit-user-select: none;
   -ms-user-select: none;
   border: 3px solid white;
+  max-width: 100%;
+  height: auto;
+  
 
 }
 
