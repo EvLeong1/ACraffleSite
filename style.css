@@ -163,6 +163,13 @@ h3 {
   
 }
 
+.ratings{
+
+  font-size: 2em;
+  color: white;
+}
+
+
 
 #char img:active{
   transform: scale(0.95);
