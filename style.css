@@ -195,7 +195,13 @@ h3 {
   color:white;
 }
 
-
+.acrpic{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
 a.acrlink {
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -206,7 +212,16 @@ a.acrlink {
   margin-top: 20px;
   text-align: center;
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
+}
+
+.acrtext{
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
 }
 
 header nav ul li{
